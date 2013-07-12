@@ -1,11 +1,19 @@
 package com.example.groupproject;
-//k
 
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
 
 public class MainActivity extends Activity {
+	
+	//create listener buttons for categories - about 5 categories
+	  //possibly spawn new activities as a result from button clicks to open more selections
+	
+	//add google maps for locations
+	
+	//add simple animations?
+	
+	//link to web pages for information
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
