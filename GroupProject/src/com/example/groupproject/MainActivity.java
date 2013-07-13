@@ -6,14 +6,20 @@ import android.view.Menu;
 
 public class MainActivity extends Activity {
 	
+	/**  Guide Lines and ideas*/
+	
 	//create listener buttons for categories - about 5 categories
 	  //possibly spawn new activities as a result from button clicks to open more selections
 	
-	//add google maps for locations
+	//add google maps for locations; all else fails, open web page to google map location.
 	
 	//add simple animations?
 	
 	//link to web pages for information
+	
+	//main source for visitor information:  http://www.pcgov.org/visitors
+	
+	//various button categories that open more selections ( see document for categories.)  Possibly add 'about' section?
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
