@@ -3,6 +3,11 @@
 
     <string name="app_name">GroupProject</string>
     <string name="action_settings">Settings</string>
-    <string name="button">Button</string>
+    <string name="entertainment">Entertainment</string>
+    <string name="beachLocations">Beach Locations</string>
+    <string name="hotels">Hotels</string>
+    <string name="shopping">Shopping</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="hospitals">Hospitals</string>
 
 </resources>
