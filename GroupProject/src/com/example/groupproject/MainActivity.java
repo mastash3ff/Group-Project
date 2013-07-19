@@ -16,6 +16,9 @@ public class MainActivity extends Activity {
 	//add simple animations?
 	
 	//link to web pages for information
+	  //Entertainment - http://www.marinaciviccenter.com/
+						//http://www.martintheatre.com/
+						//http://www.vac.org.cn/home.html
 	
 	//main source for visitor information:  http://www.pcgov.org/visitors
 	
