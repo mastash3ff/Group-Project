@@ -1,10 +1,22 @@
 package com.example.groupproject;
 
+import android.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.webkit.WebView;
+import android.widget.Button;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity implements View.OnClickListener
+{
+  private Button entertainmentBtn,
+                 beachLocationsBtn,
+                 hotelsBtn,
+                 restaurantsBtn,
+                 hospitalsBtn,
+                 shoppingBtn;
 	
 	/**  Guide Lines and ideas*/
 	
@@ -38,16 +50,81 @@ public class MainActivity extends Activity {
 	//various button categories that open more selections ( see document for categories.)  Possibly add 'about' section?
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
+	protected void onCreate(Bundle savedInstanceState)
+	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		entertainmentBtn = findViewByID(R.id.entertainment);
+		entertainmentBtn.setOnClickListener(entertainmentListener);
+		
+		beachLocationsBtn = findViewByID(R.id.beachLocations);
+		beachLocationsBtn.setOnClickListener(beachLocationsListener);
+		
+    restaurantsBtn = findViewByID(R.id.restaurants);
+    restaurantsBtn.setOnClickListener(restaurantstListener);
+    
+		hotelsBtn = findViewByID(R.id.hotels);
+		hotelsBtn.setOnClickListener(hotelsListener);
+		
+		hospitalsBtn = findViewByID(R.id.hospitals);
+		hospitalsBtn.setOnClickListener(hospitalsListener);
+		
+		shoppingBtn = findViewByID(R.id.shopping);
+		shoppingsBtn.setOnClickListener(shoppingListener);
 	}
 
 	@Override
-	public boolean onCreateOptionsMenu(Menu menu) {
+	public boolean onCreateOptionsMenu(Menu menu)
+	{
 		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.main, menu);
 		return true;
 	}
+
+  OnClickListener entertainmentListener = new OnClickListener()
+  {
+    public void onClick(View v)
+    {
+      WebView browser = new WebView(getApplicationContext());
+      setContentView(browser);
+      browser.loadUrl("http://www.pcgov.org/visitors/arts-and-entertainment");
+    }
+  };
+
+  OnClickListener beachLocationsListener = new OnClickListener()
+  {
+    public void onClick(View v)
+    {
+    }
+  };
+
+  OnClickListener hotelstListener = new OnClickListener()
+  {
+    public void onClick(View v)
+    {
+    }
+  };
+
+  OnClickListener hospitalsListener = new OnClickListener()
+  {
+    public void onClick(View v)
+    {
+    }
+  };
+
+  OnClickListener restaurantsListener = new OnClickListener()
+  {
+    public void onClick(View v)
+    {
+    }
+  };
+
+  OnClickListener shoppingListener = new OnClickListener()
+  {
+    public void onClick(View v)
+    {
+    }
+  };
 
 }
