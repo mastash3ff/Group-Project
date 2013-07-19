@@ -1,6 +1,5 @@
 package com.example.groupproject;
 
-import android.R;
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
@@ -9,7 +8,7 @@ import android.view.View.OnClickListener;
 import android.webkit.WebView;
 import android.widget.Button;
 
-public class MainActivity extends Activity implements View.OnClickListener
+public class MainActivity extends Activity
 {
   private Button entertainmentBtn,
                  beachLocationsBtn,
@@ -55,23 +54,23 @@ public class MainActivity extends Activity implements View.OnClickListener
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 		
-		entertainmentBtn = findViewByID(R.id.entertainment);
+		entertainmentBtn = (Button) findViewById(R.id.entertainment);
 		entertainmentBtn.setOnClickListener(entertainmentListener);
 		
-		beachLocationsBtn = findViewByID(R.id.beachLocations);
+		beachLocationsBtn = (Button) findViewById(R.id.beachLocations);
 		beachLocationsBtn.setOnClickListener(beachLocationsListener);
 		
-    restaurantsBtn = findViewByID(R.id.restaurants);
-    restaurantsBtn.setOnClickListener(restaurantstListener);
+    restaurantsBtn = (Button) findViewById(R.id.restaurants);
+    restaurantsBtn.setOnClickListener(restaurantsListener);
     
-		hotelsBtn = findViewByID(R.id.hotels);
+		hotelsBtn = (Button) findViewById(R.id.hotels);
 		hotelsBtn.setOnClickListener(hotelsListener);
 		
-		hospitalsBtn = findViewByID(R.id.hospitals);
+		hospitalsBtn = (Button) findViewById(R.id.hospitals);
 		hospitalsBtn.setOnClickListener(hospitalsListener);
 		
-		shoppingBtn = findViewByID(R.id.shopping);
-		shoppingsBtn.setOnClickListener(shoppingListener);
+		shoppingBtn = (Button) findViewById(R.id.shopping);
+		shoppingBtn.setOnClickListener(shoppingListener);
 	}
 
 	@Override
@@ -100,6 +99,13 @@ public class MainActivity extends Activity implements View.OnClickListener
   };
 
   OnClickListener hotelstListener = new OnClickListener()
+  {
+    public void onClick(View v)
+    {
+    }
+  };
+  
+  OnClickListener hotelsListener = new OnClickListener()
   {
     public void onClick(View v)
     {
