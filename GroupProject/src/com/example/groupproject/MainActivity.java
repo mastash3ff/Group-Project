@@ -18,7 +18,20 @@ public class MainActivity extends Activity {
 	//link to web pages for information
 	  //Entertainment - http://www.marinaciviccenter.com/
 						//http://www.martintheatre.com/
-						//http://www.vac.org.cn/home.html
+			//Visual Arts Center http://www.vac.org.cn/home.html  
+	
+	  //Hospitals - 
+		//Bay Med Map http://tinyurl.com/mdv6w7y
+	    //Gulf Medical Map http://tinyurl.com/l8nuaaa
+		
+	  //Shopping - 
+		//Pier Park(long link) http://tinyurl.com/pfhv888
+		//Wal-Mart on beach http://tinyurl.com/pfhv888
+	  
+	  //Lodging - Various Map locations of lodging http://tinyurl.com/pfhv888
+		
+	  //Restaurants - Various Restaurant locations http://tinyurl.com/kx5p8k2
+	
 	
 	//main source for visitor information:  http://www.pcgov.org/visitors
 	
