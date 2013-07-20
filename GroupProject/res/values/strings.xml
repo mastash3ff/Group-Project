@@ -9,5 +9,7 @@
     <string name="shopping">Shopping</string>
     <string name="restaurants">Restaurants</string>
     <string name="hospitals">Hospitals</string>
+    <string name="title_activity_entertainment">Entertainment</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

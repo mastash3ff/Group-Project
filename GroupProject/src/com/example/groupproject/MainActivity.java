@@ -2,6 +2,7 @@ package com.example.groupproject;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -85,9 +86,8 @@ public class MainActivity extends Activity
   {
     public void onClick(View v)
     {
-      WebView browser = new WebView(getApplicationContext());
-      setContentView(browser);
-      browser.loadUrl("http://www.pcgov.org/visitors/arts-and-entertainment");
+      Intent intent = new Intent(getApplicationContext(), Entertainment.class); 
+      startActivity(intent);
     }
   };
 
