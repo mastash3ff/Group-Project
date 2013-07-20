@@ -18,7 +18,9 @@ public class MainActivity extends Activity
                  shoppingBtn;
 	
 	/**  Guide Lines and ideas*/
-	
+  
+  //testing for conflicts
+  
 	//create listener buttons for categories - about 5 categories
 	  //possibly spawn new activities as a result from button clicks to open more selections
 	
