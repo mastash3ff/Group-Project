@@ -32,7 +32,7 @@ public class NewsFeed extends Activity {
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.newsfeed);
+        setContentView(R.layout.activity_news_feed);
         
         Button buttonPrevious = (Button) findViewById(R.id.ButtonPrevious);
         buttonPrevious.setOnClickListener(new View.OnClickListener() {

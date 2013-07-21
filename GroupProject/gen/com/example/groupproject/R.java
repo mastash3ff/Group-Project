@@ -45,7 +45,6 @@ public final class R {
         public static final int activity_hospitals=0x7f030001;
         public static final int activity_main=0x7f030002;
         public static final int activity_news_feed=0x7f030003;
-        public static final int newsfeed=0x7f030004;
     }
     public static final class menu {
         public static final int entertainment=0x7f070000;
