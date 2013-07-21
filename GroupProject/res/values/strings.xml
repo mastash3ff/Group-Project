@@ -14,5 +14,7 @@
     <string name="title_activity_entertainment">Entertainment</string>
     <string name="title_activity_hospitals">Hospitals</string>
     <string name="hospitalInfo">Hospital Information</string>
+    <string name="title_activity_news_rssfeed">NewsRSSFeed</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>

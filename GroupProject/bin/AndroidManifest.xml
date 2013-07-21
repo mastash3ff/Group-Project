@@ -33,6 +33,10 @@
             android:name="com.example.groupproject.Hospitals"
             android:label="@string/title_activity_hospitals" >
         </activity>
+        <activity
+            android:name="com.example.groupproject.NewsRSSFeed"
+            android:label="@string/title_activity_news_rssfeed" >
+        </activity>
     </application>
 
 </manifest>
