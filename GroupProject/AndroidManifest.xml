@@ -34,8 +34,8 @@
             android:label="@string/title_activity_hospitals" >
         </activity>
         <activity
-            android:name="com.example.groupproject.NewsRSSFeed"
-            android:label="@string/title_activity_news_rssfeed" >
+            android:name="com.example.groupproject.NewsFeed"
+            android:label="@string/title_activity_news_feed" >
         </activity>
     </application>
 
