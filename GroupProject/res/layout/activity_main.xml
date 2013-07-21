@@ -63,4 +63,12 @@
         android:layout_margin="10dip"
         android:text="@string/shopping" />
 
+    <Button
+        android:id="@+id/buttonNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/beachLocations"
+        android:layout_toRightOf="@+id/restaurants"
+        android:text="@string/news" />
+
 </RelativeLayout>

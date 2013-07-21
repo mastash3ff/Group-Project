@@ -27,20 +27,24 @@ public final class R {
         public static final int logoterminator=0x7f020003;
     }
     public static final class id {
-        public static final int action_settings=0x7f080008;
+        public static final int ButtonPrevious=0x7f080009;
+        public static final int action_settings=0x7f08000b;
         public static final int bayMedicalCenter=0x7f080001;
         public static final int beachLocations=0x7f080004;
+        public static final int buttonNews=0x7f080008;
         public static final int entertainment=0x7f080003;
         public static final int gulfCoastMedicalCenter=0x7f080002;
         public static final int hospitals=0x7f080000;
         public static final int hotels=0x7f080005;
         public static final int restaurants=0x7f080006;
         public static final int shopping=0x7f080007;
+        public static final int textViewNews=0x7f08000a;
     }
     public static final class layout {
         public static final int activity_entertainment=0x7f030000;
         public static final int activity_hospitals=0x7f030001;
         public static final int activity_main=0x7f030002;
+        public static final int newsfeed=0x7f030003;
     }
     public static final class menu {
         public static final int entertainment=0x7f070000;
@@ -58,8 +62,11 @@ public final class R {
         public static final int hospitalInfo=0x7f05000c;
         public static final int hospitals=0x7f050007;
         public static final int hotels=0x7f050004;
+        public static final int news=0x7f05000f;
+        public static final int previous=0x7f05000e;
         public static final int restaurants=0x7f050006;
         public static final int shopping=0x7f050005;
+        public static final int textviewNews=0x7f050010;
         public static final int title_activity_entertainment=0x7f05000a;
         public static final int title_activity_hospitals=0x7f05000b;
     }

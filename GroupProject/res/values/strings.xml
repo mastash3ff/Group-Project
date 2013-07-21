@@ -15,5 +15,8 @@
     <string name="title_activity_hospitals">Hospitals</string>
     <string name="hospitalInfo">Hospital Information</string>
     <string name="back">Back</string>
+    <string name="previous">Previous</string>
+    <string name="news">News</string>
+    <string name="textviewNews">TextView</string>
 
 </resources>
