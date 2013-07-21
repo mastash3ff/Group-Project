@@ -27,8 +27,7 @@ public final class R {
         public static final int logoterminator=0x7f020003;
     }
     public static final class id {
-        public static final int ButtonPrevious=0x7f080009;
-        public static final int action_settings=0x7f08000b;
+        public static final int action_settings=0x7f080009;
         public static final int bayMedicalCenter=0x7f080001;
         public static final int beachLocations=0x7f080004;
         public static final int buttonNews=0x7f080008;
@@ -38,13 +37,11 @@ public final class R {
         public static final int hotels=0x7f080005;
         public static final int restaurants=0x7f080006;
         public static final int shopping=0x7f080007;
-        public static final int textViewNews=0x7f08000a;
     }
     public static final class layout {
         public static final int activity_entertainment=0x7f030000;
         public static final int activity_hospitals=0x7f030001;
         public static final int activity_main=0x7f030002;
-        public static final int newsfeed=0x7f030003;
     }
     public static final class menu {
         public static final int entertainment=0x7f070000;
