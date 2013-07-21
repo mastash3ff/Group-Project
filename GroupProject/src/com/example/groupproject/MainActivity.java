@@ -140,15 +140,14 @@ public class MainActivity extends Activity
 		}
 	};
 
-
-
 	OnClickListener newsListener = new OnClickListener()
 	{
 		public void onClick( View v)
 		{
 			
-			Intent myIntent = new Intent(v.getContext(), NewsFeed.class);
-			startActivityForResult(myIntent, 0);
+			Intent myIntent = new Intent(getApplicationContext(), NewsFeed.class);
+			//startActivityForResult(myIntent, 0);
+			startActivity(myIntent);
 
 		}
 	};
