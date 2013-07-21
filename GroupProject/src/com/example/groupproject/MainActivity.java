@@ -6,7 +6,6 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.webkit.WebView;
 import android.widget.Button;
 
 public class MainActivity extends Activity
@@ -86,7 +85,7 @@ public class MainActivity extends Activity
   {
     public void onClick(View v)
     {
-      Intent intent = new Intent(getApplicationContext(), Entertainment.class); 
+      Intent intent = new Intent(getApplicationContext(), Entertainment.class);
       startActivity(intent);
     }
   };
@@ -116,6 +115,8 @@ public class MainActivity extends Activity
   {
     public void onClick(View v)
     {
+      Intent intent = new Intent(getApplicationContext(), Hospitals.class);
+      startActivity(intent);
     }
   };
 
