@@ -8,14 +8,11 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
 
-    <uses-permission android:name="android.permission.INTERNET" />
-
     <application
         android:allowBackup="true"
         android:icon="@drawable/launchericon"
         android:label="@string/app_name"
-        android:logo="@drawable/logoterminator"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/AppTheme" android:logo="@drawable/logoterminator">
         <activity
             android:name="com.example.groupproject.MainActivity"
             android:label="@string/app_name" >
@@ -24,14 +21,6 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity
-            android:name="com.example.groupproject.Entertainment"
-            android:label="@string/title_activity_entertainment" >
-        </activity>
-        <activity
-            android:name="com.example.groupproject.Hospitals"
-            android:label="@string/title_activity_hospitals" >
         </activity>
     </application>
 

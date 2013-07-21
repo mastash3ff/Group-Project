@@ -10,33 +10,6 @@
     tools:context=".MainActivity" >
     
     <Button
-        android:id="@+id/entertainment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dip"
-        android:text="@string/entertainment" />
-
-    <Button
-        android:id="@+id/beachLocations"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/entertainment"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="10dip"
-        android:text="@string/beachLocations" />
-    
-    <Button
-        android:id="@+id/hotels"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/beachLocations"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="10dip"
-        android:text="@string/hotels" />
-    
-    <Button
         android:id="@+id/hospitals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,5 +35,40 @@
         android:layout_below="@+id/restaurants"
         android:layout_margin="10dip"
         android:text="@string/shopping" />
+
+    <Button
+        android:id="@+id/hotels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/beachLocations"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:text="@string/hotels" />
+
+    <Button
+        android:id="@+id/beachLocations"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entertainment"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:text="@string/beachLocations" />
+
+    <Button
+        android:id="@+id/entertainment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp"
+        android:text="@string/entertainment" />
+
+    <Button
+        android:id="@+id/buttonNews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/entertainment"
+        android:text="@string/news" />
 
 </RelativeLayout>

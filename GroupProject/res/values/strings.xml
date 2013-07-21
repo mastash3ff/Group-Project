@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Panama City Portal</string>
+    <string name="app_name">GroupProject</string>
     <string name="action_settings">Settings</string>
     <string name="entertainment">Entertainment</string>
     <string name="beachLocations">Beach Locations</string>
@@ -9,10 +9,8 @@
     <string name="shopping">Shopping</string>
     <string name="restaurants">Restaurants</string>
     <string name="hospitals">Hospitals</string>
-    <string name="bayMedicalCenterInfo">Bay Medical Center:\n615 North Bonita Avenue\nPanama City\nFL 32401\n(850) 769-1511</string>
-    <string name="gulfCoastMedicalCenterInfo">Gulf Coast Medical Center:\n449 W. 23rd Street\nPanama City\nFL 32405\n(850) 769-8341</string>
-    <string name="title_activity_entertainment">Entertainment</string>
-    <string name="title_activity_hospitals">Hospitals</string>
-    <string name="hospitalInfo">Hospital Information</string>
+    <string name="news">News</string>
+    <string name="google_rss_feed">Google RSS Feed</string>
+    <string name="back">Back</string>
 
 </resources>
