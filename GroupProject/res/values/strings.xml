@@ -10,7 +10,7 @@
     <string name="restaurants">Restaurants</string>
     <string name="hospitals">Hospitals</string>
     <string name="bayMedicalCenterInfo">Bay Medical Center:\n615 North Bonita Avenue\nPanama City\nFL 32401\n(850) 769-1511</string>
-    <string name="gulfCoastMedicalCenterInfo">Gulf Coast Medical Center:\n449 W. 23rd Street\nPanama City\nFL\n32405\n(850) 769-8341</string>
+    <string name="gulfCoastMedicalCenterInfo">Gulf Coast Medical Center:\n449 W. 23rd Street\nPanama City\nFL 32405\n(850) 769-8341</string>
     <string name="title_activity_entertainment">Entertainment</string>
     <string name="title_activity_hospitals">Hospitals</string>
     <string name="hospitalInfo">Hospital Information</string>
