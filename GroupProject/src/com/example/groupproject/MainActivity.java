@@ -1,5 +1,6 @@
 package com.example.groupproject;
 
+import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
@@ -95,6 +96,10 @@ public class MainActivity extends Activity
 		{
 			Intent intent = new Intent(getApplicationContext(), Hotels.class);
 			startActivity(intent);
+			
+		//	Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
+		//			Uri.parse("http://goo.gl/maps/9y6JV"));
+		//			startActivity(intent);
 		}
 	};
 
