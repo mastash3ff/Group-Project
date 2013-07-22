@@ -45,6 +45,7 @@ public final class R {
         public static final int activity_hotels=0x7f030002;
         public static final int activity_main=0x7f030003;
         public static final int activity_news_feed=0x7f030004;
+        public static final int activity_shopping=0x7f030005;
     }
     public static final class menu {
         public static final int entertainment=0x7f070000;
@@ -52,6 +53,7 @@ public final class R {
         public static final int hotels=0x7f070002;
         public static final int main=0x7f070003;
         public static final int news_rssfeed=0x7f070004;
+        public static final int shopping=0x7f070005;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -61,7 +63,6 @@ public final class R {
         public static final int beachLocations=0x7f050003;
         public static final int entertainment=0x7f050002;
         public static final int gulfCoastMedicalCenterInfo=0x7f050009;
-        public static final int hello_world=0x7f050010;
         public static final int hospitalInfo=0x7f05000d;
         public static final int hospitals=0x7f050007;
         public static final int hotels=0x7f050004;
@@ -71,6 +72,7 @@ public final class R {
         public static final int title_activity_entertainment=0x7f05000a;
         public static final int title_activity_hospitals=0x7f05000b;
         public static final int title_activity_hotels=0x7f05000c;
+        public static final int title_activity_shopping=0x7f050010;
     }
     public static final class style {
         /** 

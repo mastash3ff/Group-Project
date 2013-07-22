@@ -17,6 +17,6 @@
     <string name="hospitalInfo">Hospital Information</string>
     <string name="back">Back</string>
     <string name="news">News</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_shopping">Shopping</string>
 
 </resources>

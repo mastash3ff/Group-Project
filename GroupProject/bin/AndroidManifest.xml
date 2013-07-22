@@ -30,6 +30,10 @@
             android:label="@string/title_activity_entertainment" >
         </activity>
         <activity
+            android:name="com.example.groupproject.Shopping"
+            android:label="@string/title_activity_shopping" >
+        </activity>
+        <activity
             android:name="com.example.groupproject.Hospitals"
             android:label="@string/title_activity_hospitals" >
         </activity>
