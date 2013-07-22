@@ -11,7 +11,6 @@ import android.widget.Button;
 public class MainActivity extends Activity
 {
 	private Button entertainmentBtn,
-	               beachLocationsBtn,
 	               hotelsBtn,
 	               restaurantsBtn,
 	               hospitalsBtn,
@@ -70,7 +69,7 @@ public class MainActivity extends Activity
 		shoppingBtn = (Button) findViewById(R.id.shopping);
 		shoppingBtn.setOnClickListener(shoppingListener);
 
-		newsBtn = (Button) findViewById(R.id.buttonNews);
+		newsBtn = (Button) findViewById(R.id.news);
 		newsBtn.setOnClickListener(newsListener);
 	}
 	@Override

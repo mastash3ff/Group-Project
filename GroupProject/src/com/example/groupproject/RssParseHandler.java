@@ -2,7 +2,6 @@ package com.example.groupproject;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
@@ -42,34 +41,47 @@ public class RssParseHandler extends DefaultHandler
 		if ("item".equals(qName))
 		{
 			currentItem = new RssItem();
-		} else if ("title".equals(qName))
+		}
+		else if ("title".equals(qName))
 		{
 			parsingTitle = true;
-		} else if ("link".equals(qName)) 
+		}
+		else if ("link".equals(qName)) 
 		{
 			parsingLink = true;
 		}
 	}
 
 	@Override
-	public void endElement(String uri, String localName, String qName) throws SAXException {
-		if ("item".equals(qName)) {
+	public void endElement(String uri, String localName, String qName) throws SAXException
+	{
+		if ("item".equals(qName))
+		{
 			rssItems.add(currentItem);
 			currentItem = null;
-		} else if ("title".equals(qName)) {
+		}
+		else if ("title".equals(qName))
+		{
 			parsingTitle = false;
-		} else if ("link".equals(qName)) {
+		}
+		else if ("link".equals(qName))
+		{
 			parsingLink = false;
 		}
 	}
 
 	@Override
-	public void characters(char[] ch, int start, int length) throws SAXException {
-		if (parsingTitle) {
+	public void characters(char[] ch, int start, int length) throws SAXException
+	{
+		if (parsingTitle)
+		{
 			if (currentItem != null)
 				currentItem.setTitle(new String(ch, start, length));
-		} else if (parsingLink) {
-			if (currentItem != null) {
+		}
+		else if (parsingLink)
+		{
+			if (currentItem != null)
+			{
 				currentItem.setLink(new String(ch, start, length));
 				parsingLink = false;
 			}
