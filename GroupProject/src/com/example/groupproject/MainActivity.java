@@ -58,9 +58,6 @@ public class MainActivity extends Activity
 		entertainmentBtn = (Button) findViewById(R.id.entertainment);
 		entertainmentBtn.setOnClickListener(entertainmentListener);
 
-		beachLocationsBtn = (Button) findViewById(R.id.beachLocations);
-		beachLocationsBtn.setOnClickListener(beachLocationsListener);
-
 		restaurantsBtn = (Button) findViewById(R.id.restaurants);
 		restaurantsBtn.setOnClickListener(restaurantsListener);
 
@@ -90,20 +87,6 @@ public class MainActivity extends Activity
 		{
 			Intent intent = new Intent(getApplicationContext(), Entertainment.class);
 			startActivity(intent);
-		}
-	};
-
-	OnClickListener beachLocationsListener = new OnClickListener()
-	{
-		public void onClick(View v)
-		{
-		}
-	};
-
-	OnClickListener hotelstListener = new OnClickListener()
-	{
-		public void onClick(View v)
-		{
 		}
 	};
 

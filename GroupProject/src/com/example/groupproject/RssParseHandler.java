@@ -14,37 +14,43 @@ import org.xml.sax.helpers.DefaultHandler;
  * @author ITCuties
  *
  */
-public class RssParseHandler extends DefaultHandler {
+public class RssParseHandler extends DefaultHandler 
+{
 
 	private List<RssItem> rssItems;
-	
+
 	// Used to reference item while parsing
 	private RssItem currentItem;
-	
+
 	// Parsing title indicator
 	private boolean parsingTitle;
 	// Parsing link indicator
 	private boolean parsingLink;
-	
-	public RssParseHandler() {
+
+	public RssParseHandler()
+	{
 		rssItems = new ArrayList<RssItem>();
 	}
-	
-	public List<RssItem> getItems() {
+
+	public List<RssItem> getItems()
+	{
 		return rssItems;
 	}
-	
+
 	@Override
 	public void startElement(String uri, String localName, String qName, Attributes attributes) throws SAXException {
-		if ("item".equals(qName)) {
+		if ("item".equals(qName))
+		{
 			currentItem = new RssItem();
-		} else if ("title".equals(qName)) {
+		} else if ("title".equals(qName))
+		{
 			parsingTitle = true;
-		} else if ("link".equals(qName)) {
+		} else if ("link".equals(qName)) 
+		{
 			parsingLink = true;
 		}
 	}
-	
+
 	@Override
 	public void endElement(String uri, String localName, String qName) throws SAXException {
 		if ("item".equals(qName)) {
@@ -56,7 +62,7 @@ public class RssParseHandler extends DefaultHandler {
 			parsingLink = false;
 		}
 	}
-	
+
 	@Override
 	public void characters(char[] ch, int start, int length) throws SAXException {
 		if (parsingTitle) {
@@ -69,5 +75,5 @@ public class RssParseHandler extends DefaultHandler {
 			}
 		}
 	}
-	
+
 }

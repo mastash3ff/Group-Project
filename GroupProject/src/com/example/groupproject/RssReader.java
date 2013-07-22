@@ -5,14 +5,14 @@ import java.util.List;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
-
 /**
  * Class reads RSS data.
  * 
  * @author ITCuties
  *
  */
-public class RssReader {
+public class RssReader 
+{
 	
 	private String rssUrl;
 
@@ -21,7 +21,8 @@ public class RssReader {
 	 * 
 	 * @param rssUrl
 	 */
-	public RssReader(String rssUrl) {
+	public RssReader(String rssUrl) 
+	{
 		this.rssUrl = rssUrl;
 	}
 
@@ -30,7 +31,8 @@ public class RssReader {
 	 * 
 	 * @return
 	 */
-	public List<RssItem> getItems() throws Exception {
+	public List<RssItem> getItems() throws Exception
+	{
 		
 		// SAX parse RSS data
 		SAXParserFactory factory = SAXParserFactory.newInstance();

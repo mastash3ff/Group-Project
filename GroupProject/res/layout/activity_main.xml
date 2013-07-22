@@ -8,67 +8,61 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".MainActivity" >
-    
-    <Button
-        android:id="@+id/entertainment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dip"
-        android:text="@string/entertainment" />
-
-    <Button
-        android:id="@+id/beachLocations"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/entertainment"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="10dip"
-        android:text="@string/beachLocations" />
-    
-    <Button
-        android:id="@+id/hotels"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/beachLocations"
-        android:layout_centerHorizontal="true"
-        android:layout_margin="10dip"
-        android:text="@string/hotels" />
-    
-    <Button
-        android:id="@+id/hospitals"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/hotels"
-        android:layout_margin="10dip"
-        android:text="@string/hospitals" />
-
-    <Button
-        android:id="@+id/restaurants"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/hospitals"
-        android:layout_margin="10dip"
-        android:text="@string/restaurants" />
 
     <Button
         android:id="@+id/shopping"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@+id/restaurants"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/restaurants"
         android:layout_margin="10dip"
+        android:layout_marginBottom="34dp"
         android:text="@string/shopping" />
+
+    <Button
+        android:id="@+id/restaurants"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shopping"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:layout_marginBottom="27dp"
+        android:text="@string/restaurants" />
+
+    <Button
+        android:id="@+id/hospitals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/restaurants"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:text="@string/hospitals" />
+
+    <Button
+        android:id="@+id/hotels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hospitals"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dip"
+        android:text="@string/hotels" />
 
     <Button
         android:id="@+id/buttonNews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/beachLocations"
-        android:layout_toRightOf="@+id/restaurants"
+        android:layout_above="@+id/entertainment"
+        android:layout_alignLeft="@+id/hotels"
+        android:layout_alignRight="@+id/hospitals"
+        android:layout_marginBottom="18dp"
         android:text="@string/news" />
+
+    <Button
+        android:id="@+id/entertainment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/hotels"
+        android:layout_centerHorizontal="true"
+        android:text="@string/entertainment" />
 
 </RelativeLayout>
