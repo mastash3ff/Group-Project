@@ -1,6 +1,6 @@
-package com.android.groupproject;
+package com.example.groupproject;
 
-import com.android.groupproject.R;
+import com.example.groupproject.R;
 
 import android.os.Bundle;
 import android.app.Activity;

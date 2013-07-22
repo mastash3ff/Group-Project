@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.groupproject"
+    package="com.example.groupproject"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -15,7 +15,7 @@
         android:logo="@drawable/logoterminator"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.android.groupproject.MainActivity"
+            android:name="com.android.GroupProject.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,15 +24,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.groupproject.Entertainment"
+            android:name="com.android.GroupProject.Entertainment"
             android:label="@string/title_activity_entertainment" >
         </activity>
         <activity
-            android:name="com.android.groupproject.Hospitals"
+            android:name="com.android.GroupProject.Hospitals"
             android:label="@string/title_activity_hospitals" >
         </activity>
         <activity
-            android:name="com.android.groupproject.NewsFeed"
+            android:name="com.android.GroupProject.NewsFeed"
             android:label="@string/title_activity_news_feed" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -41,7 +41,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.groupproject.ITCutiesReaderAppActivity"
+            android:name="com.android.GroupProject.ITCutiesReaderAppActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

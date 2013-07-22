@@ -1,4 +1,4 @@
-package com.android.groupproject;
+package com.example.groupproject;
 
 /**
  * This code encapsulates RSS item data.

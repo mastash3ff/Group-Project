@@ -1,4 +1,4 @@
-package com.android.groupproject;
+package com.example.groupproject;
 
 import java.util.ArrayList;
 import java.util.List;

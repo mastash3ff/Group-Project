@@ -1,8 +1,8 @@
-package com.android.groupproject;
+package com.example.groupproject;
 
 import java.util.List;
 
-import com.android.groupproject.R;
+import com.example.groupproject.R;
 //import com.android.groupproject.R.id;
 //import com.android.groupproject.R.layout;
 
@@ -77,7 +77,8 @@ public class ITCutiesReaderAppActivity extends Activity {
 			ListView itcItems = (ListView) findViewById(R.id.listMainView);
 						
 			// Create a list adapter
-			ArrayAdapter<RssItem> adapter = new ArrayAdapter<RssItem>(local,android.R.layout.activity_list_item, result);
+			//ArrayAdapter<RssItem> adapter = new ArrayAdapter<RssItem>(local, R.id.listMainView, result);
+			ArrayAdapter<RssItem> adapter = new ArrayAdapter<RssItem>(local, R.id.listMainView, result);
 			// Set list adapter for the ListView
 			itcItems.setAdapter(adapter);
 
