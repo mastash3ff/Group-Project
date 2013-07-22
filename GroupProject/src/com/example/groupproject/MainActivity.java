@@ -1,7 +1,5 @@
 package com.example.groupproject;
 
-//import com.android.groupproject.R;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
