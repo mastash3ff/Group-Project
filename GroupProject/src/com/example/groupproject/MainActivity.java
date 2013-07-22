@@ -12,11 +12,11 @@ import android.widget.Button;
 public class MainActivity extends Activity
 {
 	private Button entertainmentBtn,
-	               hotelsBtn,
-	               restaurantsBtn,
-	               hospitalsBtn,
-	               newsBtn,
-	               shoppingBtn;
+	hotelsBtn,
+	restaurantsBtn,
+	hospitalsBtn,
+	newsBtn,
+	shoppingBtn;
 
 	/**  Guide Lines and ideas*/
 
@@ -94,12 +94,11 @@ public class MainActivity extends Activity
 	{
 		public void onClick(View v)
 		{
-			Intent intent = new Intent(getApplicationContext(), Hotels.class);
-			startActivity(intent);
-			
-		//	Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
-		//			Uri.parse("http://goo.gl/maps/9y6JV"));
-		//			startActivity(intent);
+
+				Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
+						Uri.parse("https://maps.google.com/maps?q=panama+city+beach+hotels&hl=en&sll=30.234861,-85.845579&sspn=0.252423,0.528374&hq=hotels&hnear=Panama+City+Beach,+Bay,+Florida&t=m&z=13"));
+				startActivity(intent);
+
 		}
 	};
 
@@ -116,6 +115,9 @@ public class MainActivity extends Activity
 	{
 		public void onClick(View v)
 		{
+			Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
+					Uri.parse("https://maps.google.com/maps?q=panama+city+beach+restaurants&hl=en&sll=30.20672,-85.838209&sspn=0.252495,0.528374&hq=restaurants&hnear=Panama+City+Beach,+Bay,+Florida&t=m&z=12"));
+			startActivity(intent);
 		}
 	};
 
