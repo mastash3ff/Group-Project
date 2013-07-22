@@ -11,7 +11,6 @@ import android.widget.Button;
 public class MainActivity extends Activity
 {
 	private Button entertainmentBtn,
-	               beachLocationsBtn,
 	               hotelsBtn,
 	               restaurantsBtn,
 	               hospitalsBtn,
@@ -94,6 +93,8 @@ public class MainActivity extends Activity
 	{
 		public void onClick(View v)
 		{
+			Intent intent = new Intent(MainActivity.this, Hotels.class);
+			startActivity(intent);
 		}
 	};
 

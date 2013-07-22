@@ -13,6 +13,7 @@
     <string name="gulfCoastMedicalCenterInfo">Gulf Coast Medical Center:\n449 W. 23rd Street\nPanama City\nFL 32405\n(850) 769-8341</string>
     <string name="title_activity_entertainment">Entertainment</string>
     <string name="title_activity_hospitals">Hospitals</string>
+    <string name="title_activity_hotels">Hospitals</string>
     <string name="hospitalInfo">Hospital Information</string>
     <string name="back">Back</string>
     <string name="previous">Previous</string>
