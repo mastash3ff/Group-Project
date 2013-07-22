@@ -11,12 +11,12 @@ import android.widget.Button;
 public class MainActivity extends Activity
 {
 	private Button entertainmentBtn,
-	beachLocationsBtn,
-	hotelsBtn,
-	restaurantsBtn,
-	hospitalsBtn,
-	newsBtn,
-	shoppingBtn;
+	               beachLocationsBtn,
+	               hotelsBtn,
+	               restaurantsBtn,
+	               hospitalsBtn,
+	               newsBtn,
+	               shoppingBtn;
 
 	/**  Guide Lines and ideas*/
 
@@ -75,9 +75,6 @@ public class MainActivity extends Activity
 
 		newsBtn = (Button) findViewById(R.id.buttonNews);
 		newsBtn.setOnClickListener(newsListener);
-
-
-
 	}
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
@@ -142,13 +139,10 @@ public class MainActivity extends Activity
 
 	OnClickListener newsListener = new OnClickListener()
 	{
-		public void onClick( View v)
+		public void onClick(View v)
 		{
-			
-			Intent myIntent = new Intent(getApplicationContext(), NewsFeed.class);
-			//startActivityForResult(myIntent, 0);
-			startActivity(myIntent);
-
+			Intent myIntent = new Intent(v.getContext(), NewsFeed.class);
+			startActivityForResult(myIntent, 0);
 		}
 	};
 

@@ -18,5 +18,7 @@
     <string name="previous">Previous</string>
     <string name="news">News</string>
     <string name="textviewNews">TextView</string>
+    <string name="title_activity_news_feed">NewsFeed</string>
+    <string name="hello_world">Hello world!</string>
 
 </resources>
