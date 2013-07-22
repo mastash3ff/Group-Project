@@ -1,14 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.groupproject"
+    package="com.android.groupproject"
     android:versionCode="1"
     android:versionName="1.0" >
 
     <uses-sdk
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
-
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -17,7 +15,7 @@
         android:logo="@drawable/logoterminator"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.groupproject.MainActivity"
+            android:name="com.android.groupproject.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,16 +24,30 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.groupproject.Entertainment"
+            android:name="com.android.groupproject.Entertainment"
             android:label="@string/title_activity_entertainment" >
         </activity>
         <activity
-            android:name="com.example.groupproject.Hospitals"
+            android:name="com.android.groupproject.Hospitals"
             android:label="@string/title_activity_hospitals" >
         </activity>
         <activity
-            android:name="com.example.groupproject.NewsFeed"
+            android:name="com.android.groupproject.NewsFeed"
             android:label="@string/title_activity_news_feed" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.android.groupproject.ITCutiesReaderAppActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
     </application>
 

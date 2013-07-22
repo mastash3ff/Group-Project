@@ -1,4 +1,6 @@
-package com.example.groupproject;
+package com.android.groupproject;
+
+import com.android.groupproject.R;
 
 import android.os.Bundle;
 import android.app.Activity;
@@ -141,8 +143,8 @@ public class MainActivity extends Activity
 	{
 		public void onClick(View v)
 		{
-			Intent myIntent = new Intent(v.getContext(), NewsFeed.class);
-			startActivityForResult(myIntent, 0);
+			Intent myIntent = new Intent(MainActivity.this, ITCutiesReaderAppActivity.class);
+			startActivity(myIntent);
 		}
 	};
 

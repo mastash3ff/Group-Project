@@ -1,4 +1,4 @@
-package com.example.groupproject;
+package com.android.groupproject;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -20,15 +20,21 @@ import javax.xml.parsers.ParserConfigurationException;
 import org.xml.sax.Attributes;
 import org.xml.sax.helpers.DefaultHandler;
 
+import com.android.groupproject.R;
+
 public class NewsFeed extends Activity {
 
-	/** Called when the activity is first created. */
+
+
+	// Called when the activity is first created. 
+	
 	String rssResult = "";
 	boolean item = false;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState)
 	{
+		/*
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_news_feed);
 
@@ -43,6 +49,8 @@ public class NewsFeed extends Activity {
 			}
 
 		});
+	 */
+	/*
 
 		TextView rss = (TextView) findViewById(R.id.textViewNews);
 		try {
@@ -93,6 +101,7 @@ public class NewsFeed extends Activity {
 				rssResult = rssResult +(cdata.trim()).replaceAll("\\s+", " ")+"\t";
 
 				}
+	 */
+}
 
-	}
 }
