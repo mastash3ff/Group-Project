@@ -5,14 +5,6 @@
     android:background="#ffffff"
     android:orientation="vertical" >
 
-    <Button
-        android:id="@+id/ButtonPrevious"
-        android:layout_width="wrap_content"
-        android:layout_height="55dp"
-        android:text="@string/previous"
-        android:textSize="18sp" >
-    </Button>
-
     <TextView
         android:id="@+id/textViewNews"
         android:layout_width="wrap_content"

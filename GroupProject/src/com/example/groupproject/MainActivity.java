@@ -69,7 +69,7 @@ public class MainActivity extends Activity
 		shoppingBtn = (Button) findViewById(R.id.shopping);
 		shoppingBtn.setOnClickListener(shoppingListener);
 
-		newsBtn = (Button) findViewById(R.id.buttonNews);
+		newsBtn = (Button) findViewById(R.id.news);
 		newsBtn.setOnClickListener(newsListener);
 	}
 	@Override
@@ -93,7 +93,7 @@ public class MainActivity extends Activity
 	{
 		public void onClick(View v)
 		{
-			Intent intent = new Intent(MainActivity.this, Hotels.class);
+			Intent intent = new Intent(getApplicationContext(), Hotels.class);
 			startActivity(intent);
 		}
 	};

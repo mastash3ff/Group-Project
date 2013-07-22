@@ -15,7 +15,7 @@ public class Hotels extends Activity
     setContentView(R.layout.activity_hotels);
     WebView webView = new WebView(getApplicationContext());
     setContentView(webView);
-    webView.loadUrl("http://tinyurl.com/pfhv888");
+    webView.loadUrl("https://maps.google.com/maps?rlz=1C1PRFB_enUS447US447&q=panama+city+beach+hotels&bav=on.2,or.r_qf.&bvm=bv.49478099,d.eWU,pv.xjs.s.en_US.c75bKy5EQ0A.O&biw=1920&bih=951&um=1&ie=UTF-8&hl=en&sa=N&tab=wl");
   }
 
   @Override

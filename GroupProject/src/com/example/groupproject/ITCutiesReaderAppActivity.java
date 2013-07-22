@@ -1,7 +1,6 @@
 package com.example.groupproject;
 
 import java.util.List;
-
 import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -55,14 +54,16 @@ public class ITCutiesReaderAppActivity extends Activity
 			// Debug the task thread name
 			Log.d("ITCRssReader", Thread.currentThread().getName());
 
-			try {
+			try
+			{
 				// Create RSS reader
 				RssReader rssReader = new RssReader(urls[0]);
 
 				// Parse RSS, get items
 				return rssReader.getItems();
 
-			} catch (Exception e)
+			}
+			catch (Exception e)
 			{
 				Log.e("ITCRssReader", e.getMessage());
 			}
@@ -90,6 +91,5 @@ public class ITCutiesReaderAppActivity extends Activity
 			itcItems.setOnItemClickListener(new ListListener(result, local));
 		}
 	}
-
 
 }
