@@ -8,6 +8,8 @@
         android:minSdkVersion="8"
         android:targetSdkVersion="17" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/launchericon"
@@ -15,7 +17,7 @@
         android:logo="@drawable/logoterminator"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.android.GroupProject.MainActivity"
+            android:name="com.example.groupproject.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,30 +26,16 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.android.GroupProject.Entertainment"
+            android:name="com.example.groupproject.Entertainment"
             android:label="@string/title_activity_entertainment" >
         </activity>
         <activity
-            android:name="com.android.GroupProject.Hospitals"
+            android:name="com.example.groupproject.Hospitals"
             android:label="@string/title_activity_hospitals" >
         </activity>
         <activity
-            android:name="com.android.GroupProject.NewsFeed"
+            android:name="com.example.groupproject.NewsFeed"
             android:label="@string/title_activity_news_feed" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="com.android.GroupProject.ITCutiesReaderAppActivity"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

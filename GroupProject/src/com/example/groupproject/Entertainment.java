@@ -1,7 +1,5 @@
 package com.example.groupproject;
 
-import com.example.groupproject.R;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.view.Menu;
