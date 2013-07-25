@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.groupproject"
+    package="com.android.groupproject"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -10,11 +10,11 @@
 
     <!-- May need adjusting for permission -->
     <permission
-        android:name="com.example.groupproject.permission.MAPS_RECEIVE"
+        android:name="com.android.groupproject.permission.MAPS_RECEIVE"
         android:protectionLevel="signature" />
 
     <!-- May need adjusting for users permission -->
-    <uses-permission android:name="com.example.groupproject.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.android.groupproject.permission.MAPS_RECEIVE" />
 
     <!-- Copied from Google Maps Library/AndroidManifest.xml. -->
 
@@ -44,8 +44,7 @@
          The example key below will not be accepted because it is not linked to the
          certificate which you will use to sign this application.
          See: https://developers.google.com/maps/documentation/android/start
-         for instructions on how to get your own key.
-        -->
+         for instructions on how to get your own key.        -->
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="AIzaSyCUUomPSTgxvnsvUwt1vdmeHUTmCJNsglw" />

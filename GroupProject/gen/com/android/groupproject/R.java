@@ -5,7 +5,7 @@
  * should not be modified by hand.
  */
 
-package com.example.groupproject;
+package com.android.groupproject;
 
 public final class R {
     public static final class attr {
@@ -129,7 +129,7 @@ containing a value of this type.
            <colgroup align="left" />
            <colgroup align="left" />
            <tr><th>Attribute</th><th>Description</th></tr>
-           <tr><td><code>{@link #CustomFontTxtView_customFont com.example.groupproject:customFont}</code></td><td></td></tr>
+           <tr><td><code>{@link #CustomFontTxtView_customFont com.android.groupproject:customFont}</code></td><td></td></tr>
            </table>
            @see #CustomFontTxtView_customFont
          */
@@ -137,7 +137,7 @@ containing a value of this type.
             0x7f010000
         };
         /**
-          <p>This symbol is the offset where the {@link com.example.groupproject.R.attr#customFont}
+          <p>This symbol is the offset where the {@link com.android.groupproject.R.attr#customFont}
           attribute's value can be found in the {@link #CustomFontTxtView} array.
 
 

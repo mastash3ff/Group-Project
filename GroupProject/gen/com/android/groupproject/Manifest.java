@@ -5,12 +5,12 @@
  * should not be modified by hand.
  */
 
-package com.example.groupproject;
+package com.android.groupproject;
 
 public final class Manifest {
     public static final class permission {
         /**  May need adjusting for permission 
          */
-        public static final String MAPS_RECEIVE="com.example.groupproject.permission.MAPS_RECEIVE";
+        public static final String MAPS_RECEIVE="com.android.groupproject.permission.MAPS_RECEIVE";
     }
 }
