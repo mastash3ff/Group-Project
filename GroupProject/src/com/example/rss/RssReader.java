@@ -1,4 +1,4 @@
-package com.example.groupproject;
+package com.example.rss;
 
 import java.util.List;
 import javax.xml.parsers.SAXParser;

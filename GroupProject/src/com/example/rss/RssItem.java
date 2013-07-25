@@ -1,4 +1,4 @@
-package com.example.groupproject;
+package com.example.rss;
 
 /**
  * This code encapsulates RSS item data.

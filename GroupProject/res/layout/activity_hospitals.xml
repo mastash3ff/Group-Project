@@ -13,20 +13,10 @@
         android:id="@+id/hospitals"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
+        android:layout_alignLeft="@+id/bayMedicalCenter"
+        android:layout_alignParentTop="true"
         android:text="@string/hospitalInfo"
-        android:layout_centerHorizontal="true"
         android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <TextView
-        android:id="@+id/bayMedicalCenter"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/hospitals"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="22dp"
-        android:text="@string/bayMedicalCenterInfo"
-        android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <TextView
         android:id="@+id/gulfCoastMedicalCenter"
@@ -35,7 +25,18 @@
         android:layout_below="@+id/bayMedicalCenter"
         android:layout_centerHorizontal="true"
         android:layout_margin="25dip"
+        android:layout_marginTop="22dp"
         android:text="@string/gulfCoastMedicalCenterInfo"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/bayMedicalCenter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gulfCoastMedicalCenter"
+        android:layout_below="@+id/hospitals"
+        android:layout_marginTop="30dp"
+        android:text="@string/bayMedicalCenterInfo"
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
 </RelativeLayout>

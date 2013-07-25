@@ -18,5 +18,12 @@
     <string name="back">Back</string>
     <string name="news">News</string>
     <string name="title_activity_shopping">Shopping</string>
+    <string name="hello_world_layout">Hello world! This is a Custom Font from XML </string>
+    <string name="hello_world_style">Hello world! This is a Custom Font from style </string>
+    <string name="hello_world_code">Hello world! This is a Custom Font by Code </string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="textview">TextView</string>
+    <string name="large_textBayMed">Large Text</string>
 
 </resources>

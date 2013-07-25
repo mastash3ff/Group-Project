@@ -2,7 +2,9 @@ package com.example.groupproject;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.graphics.Typeface;
 import android.view.Menu;
+import android.widget.TextView;
 
 public class Hospitals extends Activity
 {
@@ -12,6 +14,14 @@ public class Hospitals extends Activity
   {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_hospitals);
+    
+	TextView txtView1 = (TextView) findViewById(R.id.bayMedicalCenter);
+	TextView txtView2 = (TextView) findViewById(R.id.gulfCoastMedicalCenter);
+	Typeface externalFont = Typeface.createFromAsset(getAssets(),
+			"fonts/CONSOLA.TTF");
+	txtView1.setTypeface(externalFont);
+	txtView2.setTypeface(externalFont);
+	
   }
 
   @Override

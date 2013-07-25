@@ -1,6 +1,8 @@
-package com.example.groupproject;
+package com.example.rss;
 
 import java.util.List;
+
+import com.example.groupproject.R;
 import android.app.Activity;
 import android.os.AsyncTask;
 import android.os.Bundle;

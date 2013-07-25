@@ -1,4 +1,4 @@
-package com.example.groupproject;
+package com.example.rss;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -9,6 +9,14 @@ package com.example.groupproject;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int customFont=0x7f010000;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -27,13 +35,14 @@ public final class R {
         public static final int logoterminator=0x7f020003;
     }
     public static final class id {
-        public static final int action_settings=0x7f08000a;
+        public static final int action_settings=0x7f08000b;
         public static final int bayMedicalCenter=0x7f080001;
         public static final int entertainment=0x7f080003;
         public static final int gulfCoastMedicalCenter=0x7f080002;
         public static final int hospitals=0x7f080000;
         public static final int hotels=0x7f080005;
         public static final int listMainView=0x7f080009;
+        public static final int menu_settings=0x7f08000a;
         public static final int news=0x7f080004;
         public static final int restaurants=0x7f080006;
         public static final int shopping=0x7f080007;
@@ -48,12 +57,13 @@ public final class R {
         public static final int activity_shopping=0x7f030005;
     }
     public static final class menu {
-        public static final int entertainment=0x7f070000;
-        public static final int hospitals=0x7f070001;
-        public static final int hotels=0x7f070002;
-        public static final int main=0x7f070003;
-        public static final int news_rssfeed=0x7f070004;
-        public static final int shopping=0x7f070005;
+        public static final int activity_text=0x7f070000;
+        public static final int entertainment=0x7f070001;
+        public static final int hospitals=0x7f070002;
+        public static final int hotels=0x7f070003;
+        public static final int main=0x7f070004;
+        public static final int news_rssfeed=0x7f070005;
+        public static final int shopping=0x7f070006;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
@@ -63,26 +73,35 @@ public final class R {
         public static final int beachLocations=0x7f050003;
         public static final int entertainment=0x7f050002;
         public static final int gulfCoastMedicalCenterInfo=0x7f050009;
+        public static final int hello_world_code=0x7f050013;
+        public static final int hello_world_layout=0x7f050011;
+        public static final int hello_world_style=0x7f050012;
         public static final int hospitalInfo=0x7f05000d;
         public static final int hospitals=0x7f050007;
         public static final int hotels=0x7f050004;
+        public static final int large_textBayMed=0x7f050017;
+        public static final int menu_settings=0x7f050014;
         public static final int news=0x7f05000f;
         public static final int restaurants=0x7f050006;
         public static final int shopping=0x7f050005;
+        public static final int textview=0x7f050016;
         public static final int title_activity_entertainment=0x7f05000a;
         public static final int title_activity_hospitals=0x7f05000b;
         public static final int title_activity_hotels=0x7f05000c;
+        public static final int title_activity_main=0x7f050015;
         public static final int title_activity_shopping=0x7f050010;
     }
     public static final class style {
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+
     
 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
         
 
         Base application theme for API 11+. This theme completely replaces
@@ -101,5 +120,35 @@ public final class R {
  All customizations that are NOT specific to a particular API-level can go here. 
          */
         public static final int AppTheme=0x7f060001;
+        public static final int CustomFontStyle=0x7f060002;
     }
+    public static final class styleable {
+        /**  added 
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #CustomFontTxtView_customFont com.example.groupproject:customFont}</code></td><td></td></tr>
+           </table>
+           @see #CustomFontTxtView_customFont
+         */
+        public static final int[] CustomFontTxtView = {
+            0x7f010000
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.example.groupproject.R.attr#customFont}
+          attribute's value can be found in the {@link #CustomFontTxtView} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name android:customFont
+        */
+        public static final int CustomFontTxtView_customFont = 0;
+    };
 }

@@ -42,7 +42,7 @@
             android:label="@string/title_activity_hotels" >
         </activity>
         <activity
-            android:name="com.example.groupproject.ITCutiesReaderAppActivity"
+            android:name="com.example.rss.ITCutiesReaderAppActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
