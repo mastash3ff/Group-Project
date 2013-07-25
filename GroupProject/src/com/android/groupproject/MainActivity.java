@@ -1,6 +1,7 @@
-package com.example.groupproject;
+package com.android.groupproject;
 
-import com.example.rss.ITCutiesReaderAppActivity;
+import com.android.rss.ITCutiesReaderAppActivity;
+import com.example.groupproject.R;
 import android.net.Uri;
 import android.os.Bundle;
 import android.app.Activity;

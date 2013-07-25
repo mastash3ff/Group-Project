@@ -51,7 +51,7 @@
             android:value="AIzaSyCUUomPSTgxvnsvUwt1vdmeHUTmCJNsglw" />
 
         <activity
-            android:name="com.example.groupproject.MainActivity"
+            android:name="com.android.groupproject.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -60,23 +60,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.groupproject.Entertainment"
+            android:name="com.android.groupproject.Entertainment"
             android:label="@string/title_activity_entertainment" >
         </activity>
         <activity
-            android:name="com.example.groupproject.Shopping"
+            android:name="com.android.groupproject.Shopping"
             android:label="@string/title_activity_shopping" >
         </activity>
         <activity
-            android:name="com.example.groupproject.Hospitals"
+            android:name="com.android.groupproject.Hospitals"
             android:label="@string/title_activity_hospitals" >
         </activity>
         <activity
-            android:name="com.example.groupproject.Hotels"
+            android:name="com.android.groupproject.Hotels"
             android:label="@string/title_activity_hotels" >
         </activity>
         <activity
-            android:name="com.example.rss.ITCutiesReaderAppActivity"
+            android:name="com.android.rss.ITCutiesReaderAppActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

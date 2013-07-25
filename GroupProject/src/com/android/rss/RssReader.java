@@ -1,4 +1,4 @@
-package com.example.rss;
+package com.android.rss;
 
 import java.util.List;
 import javax.xml.parsers.SAXParser;

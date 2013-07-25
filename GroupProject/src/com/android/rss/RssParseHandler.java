@@ -1,4 +1,4 @@
-package com.example.rss;
+package com.android.rss;
 
 import java.util.ArrayList;
 import java.util.List;
