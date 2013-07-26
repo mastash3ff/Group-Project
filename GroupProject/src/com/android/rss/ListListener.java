@@ -1,7 +1,6 @@
 package com.android.rss;
 
 import java.util.List;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
@@ -9,13 +8,13 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
-
 /**
  * Class implements a list listener
  * 
  * @author ITCuties
  *
  */
+
 public class ListListener implements OnItemClickListener
 {
 

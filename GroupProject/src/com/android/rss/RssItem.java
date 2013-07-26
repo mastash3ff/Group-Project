@@ -7,6 +7,7 @@ package com.android.rss;
  * @author ITCuties
  *
  */
+
 public class RssItem 
 {
 

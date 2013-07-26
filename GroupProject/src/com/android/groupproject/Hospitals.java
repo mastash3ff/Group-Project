@@ -1,7 +1,5 @@
 package com.android.groupproject;
 
-import com.android.groupproject.R;
-
 import android.os.Bundle;
 import android.app.Activity;
 import android.graphics.Typeface;
@@ -17,13 +15,13 @@ public class Hospitals extends Activity
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_hospitals);
     
-	TextView txtView1 = (TextView) findViewById(R.id.bayMedicalCenter);
-	TextView txtView2 = (TextView) findViewById(R.id.gulfCoastMedicalCenter);
-	Typeface externalFont = Typeface.createFromAsset(getAssets(),
-			"fonts/CONSOLA.TTF");
-	txtView1.setTypeface(externalFont);
-	txtView2.setTypeface(externalFont);
-	
+    TextView hospitalInfoTxt = (TextView) findViewById(R.id.hospitalInfo);    
+	  TextView bayMedicalTxt = (TextView) findViewById(R.id.bayMedicalCenter);
+	  TextView gulfCoastTxt = (TextView) findViewById(R.id.gulfCoastMedicalCenter);
+	  Typeface externalFont = Typeface.createFromAsset(getAssets(), "fonts/CONSOLA.TTF");
+	  hospitalInfoTxt.setTypeface(externalFont);
+	  bayMedicalTxt.setTypeface(externalFont);
+	  gulfCoastTxt.setTypeface(externalFont);
   }
 
   @Override

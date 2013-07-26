@@ -1,7 +1,6 @@
 package com.android.rss;
 
 import java.util.List;
-
 import com.android.groupproject.R;
 import android.app.Activity;
 import android.os.AsyncTask;
@@ -9,7 +8,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
 
 /**
  * Main application activity.
@@ -19,6 +17,7 @@ import android.widget.ListView;
  * @author ITCuties
  *
  */
+
 public class ITCutiesReaderAppActivity extends Activity
 {
 

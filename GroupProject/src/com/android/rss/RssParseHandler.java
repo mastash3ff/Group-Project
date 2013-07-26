@@ -6,13 +6,13 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
-
 /**
  * SAX tag handler
  * 
  * @author ITCuties
  *
  */
+
 public class RssParseHandler extends DefaultHandler 
 {
 

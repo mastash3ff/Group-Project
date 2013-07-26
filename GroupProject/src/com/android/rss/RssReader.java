@@ -10,6 +10,7 @@ import javax.xml.parsers.SAXParserFactory;
  * @author ITCuties
  *
  */
+
 public class RssReader 
 {
 	private String rssUrl;
