@@ -13,11 +13,11 @@ import android.widget.Button;
 public class MainActivity extends Activity
 {
 	private Button entertainmentBtn,
-                 newsBtn,
-	               hotelsBtn,
-	               hospitalsBtn,
-	               restaurantsBtn,
-	               shoppingBtn;
+	newsBtn,
+	hotelsBtn,
+	hospitalsBtn,
+	restaurantsBtn,
+	shoppingBtn;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState)
@@ -27,15 +27,15 @@ public class MainActivity extends Activity
 
 		entertainmentBtn = (Button) findViewById(R.id.entertainment);
 		entertainmentBtn.setOnClickListener(entertainmentListener);
-		
-    newsBtn = (Button) findViewById(R.id.news);
-    newsBtn.setOnClickListener(newsListener);
-    
-    hotelsBtn = (Button) findViewById(R.id.hotels);
-    hotelsBtn.setOnClickListener(hotelsListener);
-    
-    hospitalsBtn = (Button) findViewById(R.id.hospitals);
-    hospitalsBtn.setOnClickListener(hospitalsListener);
+
+		newsBtn = (Button) findViewById(R.id.news);
+		newsBtn.setOnClickListener(newsListener);
+
+		hotelsBtn = (Button) findViewById(R.id.hotels);
+		hotelsBtn.setOnClickListener(hotelsListener);
+
+		hospitalsBtn = (Button) findViewById(R.id.hospitals);
+		hospitalsBtn.setOnClickListener(hospitalsListener);
 
 		restaurantsBtn = (Button) findViewById(R.id.restaurants);
 		restaurantsBtn.setOnClickListener(restaurantsListener);
@@ -43,7 +43,7 @@ public class MainActivity extends Activity
 		shoppingBtn = (Button) findViewById(R.id.shopping);
 		shoppingBtn.setOnClickListener(shoppingListener);
 	}
-	
+
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu)
 	{
@@ -56,28 +56,28 @@ public class MainActivity extends Activity
 	{
 		public void onClick(View v)
 		{
-      Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
-        Uri.parse("http://www.newsherald.com/entertainment"));
-      startActivity(intent);
+			Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
+					Uri.parse("http://www.newsherald.com/entertainment"));
+			startActivity(intent);
 		}
 	};
-	
-	 OnClickListener newsListener = new OnClickListener()
-	 {
-	   public void onClick(View v)
-	   {
-	     Intent myIntent = new Intent(getApplicationContext(), ITCutiesReaderAppActivity.class);
-	     startActivity(myIntent);
-	   }
-	 };
+
+	OnClickListener newsListener = new OnClickListener()
+	{
+		public void onClick(View v)
+		{
+			Intent myIntent = new Intent(getApplicationContext(), ITCutiesReaderAppActivity.class);
+			startActivity(myIntent);
+		}
+	};
 
 	OnClickListener hotelsListener = new OnClickListener()
 	{
 		public void onClick(View v)
 		{
-		  Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
-			  Uri.parse("https://maps.google.com/maps?q=panama+city+beach+hotels&hl=en&sll=30.234861,-85.845579&sspn=0.252423,0.528374&hq=hotels&hnear=Panama+City+Beach,+Bay,+Florida&t=m&z=13"));
-		  startActivity(intent);
+			Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
+					Uri.parse("https://maps.google.com/maps?q=panama+city+beach+hotels&hl=en&sll=30.234861,-85.845579&sspn=0.252423,0.528374&hq=hotels&hnear=Panama+City+Beach,+Bay,+Florida&t=m&z=13"));
+			startActivity(intent);
 		}
 	};
 
@@ -95,7 +95,7 @@ public class MainActivity extends Activity
 		public void onClick(View v)
 		{
 			Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
-			  Uri.parse("https://maps.google.com/maps?q=panama+city+beach+restaurants&hl=en&sll=30.20672,-85.838209&sspn=0.252495,0.528374&hq=restaurants&hnear=Panama+City+Beach,+Bay,+Florida&t=m&z=12"));
+					Uri.parse("https://maps.google.com/maps?q=panama+city+beach+restaurants&hl=en&sll=30.20672,-85.838209&sspn=0.252495,0.528374&hq=restaurants&hnear=Panama+City+Beach,+Bay,+Florida&t=m&z=12"));
 			startActivity(intent);
 		}
 	};
@@ -104,9 +104,9 @@ public class MainActivity extends Activity
 	{
 		public void onClick(View v)
 		{
-      Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
-        Uri.parse("http://www.visitpanamacitybeach.com/things-to-do/shopping/"));
-      startActivity(intent);
+			Intent intent = new Intent(android.content.Intent.ACTION_VIEW, 
+					Uri.parse("http://www.visitpanamacitybeach.com/things-to-do/shopping/"));
+			startActivity(intent);
 		}
 	};
 

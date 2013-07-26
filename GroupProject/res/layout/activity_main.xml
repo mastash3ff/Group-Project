@@ -21,8 +21,8 @@
         android:id="@+id/news"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_below="@+id/entertainment"
+        android:layout_centerHorizontal="true"
         android:layout_margin="10dip"
         android:text="@string/news" />
 
@@ -34,7 +34,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="10dip"
         android:text="@string/hotels" />
-    
+
     <Button
         android:id="@+id/hospitals"
         android:layout_width="wrap_content"
@@ -43,8 +43,8 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="10dip"
         android:text="@string/hospitals" />
-    
-     <Button
+
+    <Button
         android:id="@+id/restaurants"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,8 +52,8 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="10dip"
         android:text="@string/restaurants" />
-    
-     <Button
+
+    <Button
         android:id="@+id/shopping"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
